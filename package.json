@@ -1,5 +1,6 @@
 {
   "name": "ecl-twig",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "build:ec": "build-storybook -c ./src/ec/.storybook -o build/ec",
