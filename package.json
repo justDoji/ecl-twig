@@ -12,7 +12,6 @@
     "jest-update": "jest -u",
     "lint:js": "eslint .",
     "lint": "npm run lint:js",
-    "postinstall": "lerna run postinstall && lerna run prepublish",
     "pretty-check": "prettier --check \"src/**/*.{md,mdx,html,json,yml,js}\"",
     "publish": "lerna publish",
     "publish-canary": "lerna publish --canary --yes",
